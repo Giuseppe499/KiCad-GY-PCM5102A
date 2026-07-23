@@ -1,0 +1,227 @@
+(footprint "SolderJumper-3_P1.3mm_Open_Pad0.55x1.15mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, open")
+	(tags "solder jumper open")
+	(property "Reference" "FP1"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(uuid "88c547f6-04fb-47c2-a2f5-b9b0ffb9c556")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "e255aac7-4800-4499-8223-82ffbb5db930")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac9e735b-0aa7-4052-a31d-df57b2095bc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Solder Jumper, 3-pole, open"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ff7d6fe6-f2ad-4048-a9e2-b709fb81152f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "SolderJumper*Open*")
+	(sheetname "/")
+	(sheetfile "GY-PCM5102A.kicad_sch")
+	(zone_connect 1)
+	(attr exclude_from_bom allow_soldermask_bridges)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.525 -0.575)
+		(end -0.275 0.575)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "62467fb9-19a7-4237-9ad1-d42e4dca26fb")
+	)
+	(fp_rect
+		(start 0.275 -0.575)
+		(end 0.525 0.575)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "2be15ff7-4858-417a-8235-e5ccbc820cf9")
+	)
+	(fp_line
+		(start -1.5 0.75)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c02e37b-7487-4f1e-97a6-9d4b456eff7d")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eab1d8ef-e8d2-458d-bac9-693952885617")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end -1.25 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16d1223c-c3ac-44ca-8264-4ba288bea7b1")
+	)
+	(fp_line
+		(start 1.5 -0.75)
+		(end 1.5 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72ec0e7b-94f3-4170-8f03-46888b7604c6")
+	)
+	(fp_arc
+		(start -1.5 -0.75)
+		(mid -1.426777 -0.926777)
+		(end -1.25 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c12e090a-a57d-4b4c-9efc-b328e5d80081")
+	)
+	(fp_arc
+		(start -1.25 1)
+		(mid -1.426777 0.926777)
+		(end -1.5 0.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f24b92bc-8c22-42f1-9e9a-fa99c726c7f3")
+	)
+	(fp_arc
+		(start 1.25 -1)
+		(mid 1.426777 -0.926777)
+		(end 1.5 -0.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "463dcac8-0e6a-4d62-a785-8cf43c967de5")
+	)
+	(fp_arc
+		(start 1.5 0.75)
+		(mid 1.426777 0.926777)
+		(end 1.25 1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f3372547-ccc4-463c-89bc-c98fc45da278")
+	)
+	(fp_line
+		(start -2.3 -1.25)
+		(end -2.3 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f7e295bd-2e17-4882-b78c-46038e23d102")
+	)
+	(fp_line
+		(start -2.3 -1.25)
+		(end 2.3 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f561800e-a33e-4a96-bcd8-81f1371737b5")
+	)
+	(fp_line
+		(start 2.3 1.25)
+		(end -2.3 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7746a963-eb87-4931-9f31-331c386ab167")
+	)
+	(fp_line
+		(start 2.3 1.25)
+		(end 2.3 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "259b659c-fcdd-41d9-b56b-36708d80506d")
+	)
+	(pad "1" smd rect
+		(at -0.8 0)
+		(size 0.55 1.15)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6b75e90d-af99-4e87-a388-f331bdad3234")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.55 1.15)
+		(layers "F.Cu" "F.Mask")
+		(uuid "5e0c6de9-23b7-4891-8433-5287826c6229")
+	)
+	(pad "3" smd rect
+		(at 0.8 0)
+		(size 0.55 1.15)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6d498a18-736d-439c-b42f-e2b4e430fbc5")
+	)
+	(embedded_fonts no)
+)
