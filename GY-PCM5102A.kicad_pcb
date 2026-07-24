@@ -4367,7 +4367,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.43 -90)
+			(at 0 -1.43 270)
 			(layer "User.3")
 			(uuid "9b662f6a-3cd1-49a3-ac9f-6648306c2e6c")
 			(effects
@@ -40613,7 +40613,7 @@
 		(uuid "5089040e-8948-4c56-857d-16e311983e1e")
 	)
 	(gr_text "SCK"
-		(at 106 69 0)
+		(at 106 69.5 0)
 		(layer "F.SilkS")
 		(uuid "f7ef7c8a-2bde-42bf-9209-68f70857ae26")
 		(effects
@@ -40808,7 +40808,7 @@
 		)
 	)
 	(gr_text "SCK"
-		(at 109 69 0)
+		(at 109.5 69.5 0)
 		(layer "B.SilkS")
 		(uuid "cd1dc7c5-4fbd-4273-8dd5-816f662e0199")
 		(effects
@@ -40821,7 +40821,7 @@
 		)
 	)
 	(gr_text "BCK"
-		(at 109 72 0)
+		(at 109.5 72 0)
 		(layer "B.SilkS")
 		(uuid "86206960-cad7-4063-a595-ce9d031a8d57")
 		(effects
@@ -40834,7 +40834,7 @@
 		)
 	)
 	(gr_text "DIN"
-		(at 109 74.5 0)
+		(at 109.5 74.5 0)
 		(layer "B.SilkS")
 		(uuid "6eb113eb-7430-4743-ab7b-a4c46429f85b")
 		(effects
@@ -40847,7 +40847,7 @@
 		)
 	)
 	(gr_text "LCK"
-		(at 109 77 0)
+		(at 109.5 77 0)
 		(layer "B.SilkS")
 		(uuid "936f642c-295f-45a3-9860-67c7f688a546")
 		(effects
@@ -40860,7 +40860,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 109 79.5 0)
+		(at 109.5 79.5 0)
 		(layer "B.SilkS")
 		(uuid "c0d4b3ea-fcde-46a6-b7d7-cfc1e96192c7")
 		(effects
@@ -40873,9 +40873,61 @@
 		)
 	)
 	(gr_text "VIN"
-		(at 109 82 0)
+		(at 109.5 82 0)
 		(layer "B.SilkS")
 		(uuid "3468f576-8da8-4d7d-8476-8706e1185c1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "H1L\n"
+		(at 113 77 0)
+		(layer "B.SilkS")
+		(uuid "c7ce6e38-1c20-4c55-ac84-31d031d22372")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "H3L\n"
+		(at 113 81 0)
+		(layer "B.SilkS")
+		(uuid "51446366-9ef1-47a0-bad3-f6ed1cbb41e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "H2L\n"
+		(at 117 77 0)
+		(layer "B.SilkS")
+		(uuid "72a1b19f-0969-4604-9696-bd33b7fff0e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "H4L\n"
+		(at 117 81 0)
+		(layer "B.SilkS")
+		(uuid "aa628684-f3b1-4340-8229-0d6bc7580431")
 		(effects
 			(font
 				(size 1 1)
@@ -40993,58 +41045,6 @@
 		(at 132.5 69 90)
 		(layer "B.SilkS")
 		(uuid "93046843-e25c-4f79-a476-0a569737d974")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "H1L\n"
-		(at 113 77 0)
-		(layer "User.2")
-		(uuid "c7ce6e38-1c20-4c55-ac84-31d031d22372")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "H3L\n"
-		(at 113 81 0)
-		(layer "User.2")
-		(uuid "51446366-9ef1-47a0-bad3-f6ed1cbb41e9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "H2L\n"
-		(at 116.5 77 0)
-		(layer "User.2")
-		(uuid "72a1b19f-0969-4604-9696-bd33b7fff0e2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "H4L\n"
-		(at 117 81 0)
-		(layer "User.2")
-		(uuid "aa628684-f3b1-4340-8229-0d6bc7580431")
 		(effects
 			(font
 				(size 1 1)
